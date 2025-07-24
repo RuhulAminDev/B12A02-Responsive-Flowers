@@ -13,6 +13,12 @@
     font-variation-settings:
     "wdth" 100;
 }
+/* shared deatals */
+
+.span-title{
+    color: #E95A08;
+}
+
 /* navationbar */
 .nav-container{
     max-width: 1140px;
@@ -28,7 +34,6 @@
 .nav-logo-img{
     width: 100%;
     height: 100%;
-    margin: 0;
 }
 .nav-items{
     display: flex;
@@ -67,9 +72,6 @@ nav li a{
 .right-text-flower{
     flex: 1;
 }
-.fresh-title{
-    color: #E95A08;
-}
 .frs-title{
     font-weight: bold;
     margin-bottom: 13px;
@@ -84,3 +86,64 @@ nav li a{
 .fresh-flower{
     width: 100%;
 }
+/* Our Plants                 */
+.plants-container{
+    max-width: 1140px;
+    margin: 0 150px 210.13px 150px
+}
+.plants-title{
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.plant-description{
+    font-size: 22px;
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+/* Grid layout */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin: 0 auto;
+}
+.plant-card{
+    text-align: center;
+}
+.card-img{
+    width: 100%;
+    /* margin-bottom: 8px; */
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+}
+.plant-name{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.plant-usd{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btn-style{
+    color: white;
+    background-color:  #E95A08;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+
