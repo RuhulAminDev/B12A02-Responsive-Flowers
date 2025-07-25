@@ -18,8 +18,8 @@
     font-variation-settings:
     "wdth" 100;
 }
-/* shared deatals */
 
+/* shared deatals */
 .span-title{
     color: #E95A08;
 }
@@ -91,7 +91,8 @@ nav li a{
 .fresh-flower{
     width: 100%;
 }
-/* Our Plants                 */
+
+/* Our Plants */
 .plants-container{
     max-width: 1140px;
     margin: 0 150px 210.13px 150px
@@ -223,7 +224,7 @@ nav li a{
 .img-cont{
     display: flex;
     flex-direction: column;
-    gap: 25px; 
+    gap: 25px;
     width: 50%;
 }
 .bg-img-1{
@@ -233,12 +234,12 @@ nav li a{
     width: 100%;
     background-repeat: no-repeat;
     border-radius: 22px;
-    background-size: cover; 
-    
+    background-size: cover;
+
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     text-align: center;
     filter: brightness(80%);
@@ -251,11 +252,11 @@ nav li a{
     background-repeat: no-repeat;
     border-radius: 22px;
     background-size: cover;
-    
+
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-weight: bold;
     text-align: center;
     filter: brightness(80%);
@@ -268,11 +269,11 @@ nav li a{
     background-repeat: no-repeat;
     border-radius: 22px;
     background-size: cover;
-    
+
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-weight: bold;
     text-align: center;
     filter: brightness(80%);
@@ -291,6 +292,7 @@ nav li a{
     font-weight: 600;
     font-size: 16px;
 }
+
 /* Join the colorful Bunch */
 .Join-container {
   background-image: url(../assets/news-letter-bg.png);
@@ -328,6 +330,7 @@ nav li a{
     color: white;
     background-color: #E95A08;
 }
+
 /* Footer Style*/
 .footer-container{
     display: flex;
@@ -357,3 +360,275 @@ nav li a{
     display: flex;
     gap: 24px;
 }
+
+/* Responsive Website */
+@media screen and (max-width: 576px) {
+
+    /* Navigation Responsive */
+    .nav-container {
+    margin: 13px 16px 18px;
+    justify-content: space-between;
+    align-items: center;
+   }
+  .nav-logo-box {
+    width: 120px;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .nav-items li {
+    display: none;
+  }
+  .nav-items .chart {
+    display: block;
+    font-size: 14px;
+  }
+
+ /* Fresh Flower */
+ .hero-container {
+    flex-direction: column;
+    margin: 0 20px 80px;
+  }
+  .right-text-flower {
+    order: -1;
+    width: 100%;
+  }
+  .left-text-flower {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .frs-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .fresh-description {
+    font-size: 16px;
+    text-align: left;
+  }
+ .fresh-flower {
+  width: 100vw;
+  max-width: 100vw;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+   /* grid layou */
+  .plants-container {
+    max-width: 100%;
+    margin: 0 16px 60px 16px;
+  }
+  .plants-title {
+    font-size: 32px;
+    text-align: center;
+  }
+ .plant-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    max-width: 320px; 
+    color: #8987A1;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 20px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .btn-style {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  /* Plants Lover Sect-ion */
+  .lover-container {
+    margin: 0 20px 50px 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .lover-left-img,
+  .lover-right-container {
+    width: 100%;
+    position: relative;
+    text-align: left;
+  }
+  .second-img {
+    display: none;
+  }
+  .fast-img {
+    width: 100%;
+    height: auto;
+  }
+  .lover-title {
+    font-size: 32px;
+    margin: 20px 0 15px 0;
+    text-align: left;
+  }
+  .lover-item-container li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* Latest  Deals */
+    .Deals-container {
+    margin: 0 20px 50px 20px;
+    text-align: center;
+  }
+  .Deals-title {
+    font-size: 32px;
+  }
+   .Deals-description {
+    font-size: 16px;
+    text-align: center;
+  }
+  .Latest-Deatls-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .img-cont {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bg-img-1,
+  .bg-img-2,
+  .bg-img-3 {
+    height: auto;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  .bg-img-2 {
+    border-radius: 0;
+  }
+  .bg-img-1,
+  .bg-img-3 {
+    border-radius: 16px;
+  }
+  .bg-img-1 h3,
+  .bg-img-2 h3,
+  .bg-img-3 h3,
+  .bg-a,
+  .bg-b {
+    color: white;
+    margin: 10px 0 0 0;
+  }
+  .bg-a {
+    font-size: 14px;
+  }
+  .bg-b {
+    font-size: 20px;
+  }
+
+  /* Join the colorful Bunch  */
+    .Join-container {
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .join-bush {
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  .Join-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .join-form {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .join-bush input {
+    flex: 1;
+    padding: 15.5px 20px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .join-bush button {
+    padding: 15.5px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: #E95A08;
+    cursor: pointer;
+  }
+
+  /* Footer Style*/
+   .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 20px;
+    gap: 5px;
+    text-align: left;
+  }
+  .footer-container > div {
+    width: 100%;
+  }
+  .footer-description {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #8987A1;
+    text-align: left;
+  }
+  .footer-item {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .footer-item li {
+    margin-bottom: 15px;
+    list-style: none;
+    white-space: normal;
+    width: 100%;
+  }
+  .footer-item li a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+  }
+  .Social-icon {
+    justify-content: flex-start;
+    gap: 16px;
+    width: 100%;
+  }
+  .Social-icon div img {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
