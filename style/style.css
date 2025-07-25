@@ -318,6 +318,7 @@ nav li a{
 }
 .join-bush input{
      padding: 15.5px 540px 15.5px 20px;
+     outline: none;
 }
 .join-bush button{
     font-weight: 600;
@@ -326,4 +327,33 @@ nav li a{
     border: none;
     color: white;
     background-color: #E95A08;
+}
+/* Footer Style*/
+.footer-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 50px 160px;
+    gap: 110.67px;
+}
+.footer-description{
+    font-size: 20px;
+    margin-top: 16px;
+    color: #8987A1;
+}
+.footer-item li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+.footer-item{
+    padding: 0;
+    margin: 0;
+}
+.footer-item li a{
+    text-decoration: none;
+    color: #8987A1;
+    white-space: nowrap;
+}
+.Social-icon{
+    display: flex;
+    gap: 24px;
 }
